@@ -1,0 +1,39 @@
+LOAD DATA LOCAL INFILE 'dataset/customers.csv'
+INTO TABLE customers
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'dataset/sellers.csv'
+INTO TABLE sellers
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'dataset/geolocation.csv'
+INTO TABLE geolocation
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'dataset/orders.csv'
+INTO TABLE orders
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'dataset/order_items.csv'
+INTO TABLE order_items
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'dataset/order_payments.csv'
+INTO TABLE order_payments
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'dataset/products.csv'
+INTO TABLE products
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'dataset/order_reviews.csv'
+INTO TABLE order_reviews
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
